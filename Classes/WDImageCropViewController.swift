@@ -53,7 +53,7 @@ internal class WDImageCropViewController: UIViewController {
     }
 
     func actionCancel(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
 
     func actionUse(sender: AnyObject) {
